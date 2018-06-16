@@ -12,8 +12,11 @@
     "test:coverage": "ARK_ENV=test jest --coverage --forceExit"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
+    "babelify": "^9.0.0",
     "body-parser": "^1.18.3",
     "browserify": "^16.2.2",
     "depcheck": "^0.6.9",
@@ -33,8 +36,8 @@
     "lint-staged": "^7.1.2",
     "regenerator-runtime": "^0.11.1",
     "request-promise": "^4.2.2",
-    "rollup": "^0.60.7",
     "standard": "^11.0.1",
+    "tinyify": "^2.4.3",
     "uuid": "^3.2.1"
   },
   "workspaces": [
