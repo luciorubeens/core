@@ -19,7 +19,7 @@
     "lib"
   ],
   "scripts": {
-    "prepublish": "yarn run lint && yarn run test && yarn run build",
+    "prepublish": "yarn run lint && yarn run build",
     "build": "rm -rf dist && node ./build/browser.js",
     "build:docs": "../../node_modules/.bin/jsdoc -c jsdoc.json",
     "test": "ARK_ENV=test jest --forceExit",
