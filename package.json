@@ -41,7 +41,8 @@
     "uuid": "^3.2.1"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "plugins/*"
   ],
   "husky": {
     "hooks": {
