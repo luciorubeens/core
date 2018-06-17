@@ -12,7 +12,7 @@ const dist = path.dirname(output)
 
 fs.mkdir(dist, () => { // create the parent folder
   browserify(resolve(pkg.main), {
-    standalone: Object.keys(pkg.browser)[0]
+    standalone: name
   })
     .transform('babelify', {
       presets: [
