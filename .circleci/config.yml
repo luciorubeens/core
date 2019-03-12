@@ -41,19 +41,25 @@ jobs:
             - ./packages/core-container/node_modules
             - ./packages/core-database/node_modules
             - ./packages/core-database-postgres/node_modules
+            - ./packages/core-debugger-cli/node_modules
+            - ./packages/core-deployer/node_modules
             - ./packages/core-elasticsearch/node_modules
             - ./packages/core-error-tracker-bugsnag/node_modules
             - ./packages/core-error-tracker-sentry/node_modules
             - ./packages/core-event-emitter/node_modules
             - ./packages/core-forger/node_modules
+            - ./packages/core-graphql/node_modules
             - ./packages/core-http-utils/node_modules
             - ./packages/core-interfaces/node_modules
             - ./packages/core-jest-matchers/node_modules
             - ./packages/core-json-rpc/node_modules
             - ./packages/core-logger/node_modules
             - ./packages/core-logger-pino/node_modules
+            - ./packages/core-logger-winston/node_modules
             - ./packages/core-p2p/node_modules
             - ./packages/core-snapshots/node_modules
+            - ./packages/core-snapshots-cli/node_modules
+            - ./packages/core-test-utils/node_modules
             - ./packages/core-tester-cli/node_modules
             - ./packages/core-transaction-pool/node_modules
             - ./packages/core-transactions/node_modules
@@ -121,19 +127,25 @@ jobs:
             - ./packages/core-container/node_modules
             - ./packages/core-database/node_modules
             - ./packages/core-database-postgres/node_modules
+            - ./packages/core-debugger-cli/node_modules
+            - ./packages/core-deployer/node_modules
             - ./packages/core-elasticsearch/node_modules
             - ./packages/core-error-tracker-bugsnag/node_modules
             - ./packages/core-error-tracker-sentry/node_modules
             - ./packages/core-event-emitter/node_modules
             - ./packages/core-forger/node_modules
+            - ./packages/core-graphql/node_modules
             - ./packages/core-http-utils/node_modules
             - ./packages/core-interfaces/node_modules
             - ./packages/core-jest-matchers/node_modules
             - ./packages/core-json-rpc/node_modules
             - ./packages/core-logger/node_modules
             - ./packages/core-logger-pino/node_modules
+            - ./packages/core-logger-winston/node_modules
             - ./packages/core-p2p/node_modules
             - ./packages/core-snapshots/node_modules
+            - ./packages/core-snapshots-cli/node_modules
+            - ./packages/core-test-utils/node_modules
             - ./packages/core-tester-cli/node_modules
             - ./packages/core-transaction-pool/node_modules
             - ./packages/core-transactions/node_modules
@@ -201,19 +213,25 @@ jobs:
             - ./packages/core-container/node_modules
             - ./packages/core-database/node_modules
             - ./packages/core-database-postgres/node_modules
+            - ./packages/core-debugger-cli/node_modules
+            - ./packages/core-deployer/node_modules
             - ./packages/core-elasticsearch/node_modules
             - ./packages/core-error-tracker-bugsnag/node_modules
             - ./packages/core-error-tracker-sentry/node_modules
             - ./packages/core-event-emitter/node_modules
             - ./packages/core-forger/node_modules
+            - ./packages/core-graphql/node_modules
             - ./packages/core-http-utils/node_modules
             - ./packages/core-interfaces/node_modules
             - ./packages/core-jest-matchers/node_modules
             - ./packages/core-json-rpc/node_modules
             - ./packages/core-logger/node_modules
             - ./packages/core-logger-pino/node_modules
+            - ./packages/core-logger-winston/node_modules
             - ./packages/core-p2p/node_modules
             - ./packages/core-snapshots/node_modules
+            - ./packages/core-snapshots-cli/node_modules
+            - ./packages/core-test-utils/node_modules
             - ./packages/core-tester-cli/node_modules
             - ./packages/core-transaction-pool/node_modules
             - ./packages/core-transactions/node_modules
@@ -306,19 +324,25 @@ jobs:
             - ./packages/core-container/node_modules
             - ./packages/core-database/node_modules
             - ./packages/core-database-postgres/node_modules
+            - ./packages/core-debugger-cli/node_modules
+            - ./packages/core-deployer/node_modules
             - ./packages/core-elasticsearch/node_modules
             - ./packages/core-error-tracker-bugsnag/node_modules
             - ./packages/core-error-tracker-sentry/node_modules
             - ./packages/core-event-emitter/node_modules
             - ./packages/core-forger/node_modules
+            - ./packages/core-graphql/node_modules
             - ./packages/core-http-utils/node_modules
             - ./packages/core-interfaces/node_modules
             - ./packages/core-jest-matchers/node_modules
             - ./packages/core-json-rpc/node_modules
             - ./packages/core-logger/node_modules
             - ./packages/core-logger-pino/node_modules
+            - ./packages/core-logger-winston/node_modules
             - ./packages/core-p2p/node_modules
             - ./packages/core-snapshots/node_modules
+            - ./packages/core-snapshots-cli/node_modules
+            - ./packages/core-test-utils/node_modules
             - ./packages/core-tester-cli/node_modules
             - ./packages/core-transaction-pool/node_modules
             - ./packages/core-transactions/node_modules
@@ -405,19 +429,25 @@ jobs:
             - ./packages/core-container/node_modules
             - ./packages/core-database/node_modules
             - ./packages/core-database-postgres/node_modules
+            - ./packages/core-debugger-cli/node_modules
+            - ./packages/core-deployer/node_modules
             - ./packages/core-elasticsearch/node_modules
             - ./packages/core-error-tracker-bugsnag/node_modules
             - ./packages/core-error-tracker-sentry/node_modules
             - ./packages/core-event-emitter/node_modules
             - ./packages/core-forger/node_modules
+            - ./packages/core-graphql/node_modules
             - ./packages/core-http-utils/node_modules
             - ./packages/core-interfaces/node_modules
             - ./packages/core-jest-matchers/node_modules
             - ./packages/core-json-rpc/node_modules
             - ./packages/core-logger/node_modules
             - ./packages/core-logger-pino/node_modules
+            - ./packages/core-logger-winston/node_modules
             - ./packages/core-p2p/node_modules
             - ./packages/core-snapshots/node_modules
+            - ./packages/core-snapshots-cli/node_modules
+            - ./packages/core-test-utils/node_modules
             - ./packages/core-tester-cli/node_modules
             - ./packages/core-transaction-pool/node_modules
             - ./packages/core-transactions/node_modules
@@ -510,19 +540,25 @@ jobs:
             - ./packages/core-container/node_modules
             - ./packages/core-database/node_modules
             - ./packages/core-database-postgres/node_modules
+            - ./packages/core-debugger-cli/node_modules
+            - ./packages/core-deployer/node_modules
             - ./packages/core-elasticsearch/node_modules
             - ./packages/core-error-tracker-bugsnag/node_modules
             - ./packages/core-error-tracker-sentry/node_modules
             - ./packages/core-event-emitter/node_modules
             - ./packages/core-forger/node_modules
+            - ./packages/core-graphql/node_modules
             - ./packages/core-http-utils/node_modules
             - ./packages/core-interfaces/node_modules
             - ./packages/core-jest-matchers/node_modules
             - ./packages/core-json-rpc/node_modules
             - ./packages/core-logger/node_modules
             - ./packages/core-logger-pino/node_modules
+            - ./packages/core-logger-winston/node_modules
             - ./packages/core-p2p/node_modules
             - ./packages/core-snapshots/node_modules
+            - ./packages/core-snapshots-cli/node_modules
+            - ./packages/core-test-utils/node_modules
             - ./packages/core-tester-cli/node_modules
             - ./packages/core-transaction-pool/node_modules
             - ./packages/core-transactions/node_modules
